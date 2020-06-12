@@ -12,4 +12,7 @@ winner = ""
   passengers.each do |suite, name|
     if suite == "suite a:" and name[0] == "A"
       winner = name
+    end
+end
+winner
 end
